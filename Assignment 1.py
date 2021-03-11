@@ -43,7 +43,7 @@ if u>0:
     vowelcount.append(u)
 else:
     vowels.remove("u")
-#checked the values of the vowels and used remove function to remove an vowel not present in the list
+#checked the values of the vowels and used remove function to remove any vowel not present in the list
 print("Vowels in sentence---",vowels)
 print("Each vowel repeated as:-",vowelcount)
         
