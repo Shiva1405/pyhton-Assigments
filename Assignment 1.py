@@ -9,15 +9,15 @@ n=len(l)
 #taking the length of list of string
 
 for j in range(0,n):
-    if l[j]=='a':
+    if l[j]=='a' or l[j]=="A":
         a=a+1
-    if l[j]=='e':
+    if l[j]=='e' or l[j]=="E":
         e=e+1
-    if l[j]=='i':
+    if l[j]=='i' or l[j]=="I":
         i=i+1 
-    if l[j]=='o':
+    if l[j]=='o' or l[j]=="O":
         o=o+1        
-    if l[j]=='u':
+    if l[j]=='u' or l[j]=="U":
         u=u+1
 #used for loop for checking each variable in the list with the vowels 
 vowelcount=[]
@@ -44,7 +44,7 @@ if u>0:
 else:
     vowels.remove("u")
 #checked the values of the vowels and used remove function to remove an vowel not present in the list
-print(vowels)
-print(vowelcount)
+print("Vowels in sentence---",vowels)
+print("Each vowel repeated as:-",vowelcount)
         
         
