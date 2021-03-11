@@ -19,7 +19,7 @@ for j in range(0,n):
         o=o+1        
     if l[j]=='u' or l[j]=="U":
         u=u+1
-#used for loop for checking each variable in the list with the vowels 
+#used "for" loop for checking each variable in the list with the vowels 
 vowelcount=[]
 #list for vowel count 
 
